@@ -7,8 +7,12 @@ function HappyAlien() {
     height: '200px',
     width: '200px'
   };
+  var blockStyle = {
+    display: 'block',
+    textAlign: 'center'
+  }
   return (
-    <div>
+    <div style={blockStyle}>
       <img src={Happy} style={size}/>
     </div>
   );

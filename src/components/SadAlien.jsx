@@ -6,8 +6,12 @@ function SadAlien() {
     height: '200px',
     width: '200px'
   };
+  var blockStyle = {
+    display: 'block',
+    textAlign: 'center'
+  }
   return (
-    <div>
+    <div style={blockStyle}>
       <img src={Sad} style={size}/>
     </div>
   );

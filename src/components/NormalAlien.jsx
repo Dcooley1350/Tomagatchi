@@ -6,8 +6,12 @@ function GrumpyAlien() {
     height: '200px',
     width: '200px'
   };
+  var blockStyle = {
+    display: 'block',
+    textAlign: 'center'
+  }
   return (
-    <div>
+    <div style={blockStyle}>
       <img src={Grumpy} style={size}/>
     </div>
   );

@@ -12,8 +12,11 @@ function NewTamoform(props) {
     _name.value = '';
     _tamo.value = '';
   }
+  var tamoFormStyle ={
+    marginTop: '50px'
+  }
   return (
-    <div className="container">
+    <div style={tamoFormStyle} className="container">
       <form onSubmit={handleSubmission}>
         <input
           type='text'
@@ -25,7 +28,7 @@ function NewTamoform(props) {
           <option value='monster'  >Monster</option>
           <option value='alien'>Alien</option>
         </select><br />
-        <button type='submit'>create player</button>
+        <button className="button btn" type='submit'>create player</button>
       </form>
     </div>
   );

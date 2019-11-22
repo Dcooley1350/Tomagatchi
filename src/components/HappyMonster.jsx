@@ -6,8 +6,12 @@ function HappyMonster(){
     height: '200px',
     width: '200px'
   };
+  var blockStyle = {
+    display: 'block',
+    textAlign: 'center'
+  }
   return (
-    <div>
+    <div style={blockStyle}>
       <img src={HappyM}  style={size}/>
     </div>
   );
